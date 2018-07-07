@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5,h6 {
+       font-family: 'Quicksand', sans-serif;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header.site-area {
+    position:  relative;
+    z-index: 999;
+    background:  #28394B;
+    opacity: .75;
+}
+.hero-area {background-image: url(assets/img/hero-bg.jpg);}
+.hero-area:after {background-image: url(assets/img/hero-shade.png);}
+
+.mainmanu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: 500;
+}
+.mainmanu ul li {
+	display: inline-block;
+	position: relative;
+}
+.mainmanu ul li a {
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.logo {
+	margin: 9px 0;
+}
+.hero-area {
+	display: table;
+	width: 100%;
+	height: 770px;
+	color: #fff;
+	font-size: 20px;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.hero-area:after {
+	height: 100px;
+	width: 100%;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	background-size: 100% 100%;
+}
+.hero-area h2 {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.hero-area-tablecell {
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	display: table-cell;
+}
+.hero-area-tablecell:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	opacity: .75;
+	z-index: -1;
+	background: #0f355c;
+}
+a.boxed-btn {
+    background: #6EED8C;
+    padding:  10px 30px;
+    text-transform:  capitalize;
+    border-radius: 5px;
+    color: #10355C;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 500;
+}
