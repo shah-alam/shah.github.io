@@ -1,0 +1,5 @@
+This is code add Wordpress head and footer.
+
+<?php wp_head(); ?>
+
+<?php wp_footer(): ?>
